@@ -13,6 +13,8 @@ use DarajaMpesa\Infrastructure\Http\HttpTransport;
 use DarajaMpesa\Infrastructure\Http\HttpTransportException;
 use JsonException;
 
+// phpcs:disable WordPress.Security.EscapeOutput.ExceptionNotEscaped -- Provider exception values are internal and never rendered directly.
+
 /**
  * Acquires and caches Daraja OAuth tokens without logging credentials.
  */
@@ -128,3 +130,5 @@ final class AccessTokenProvider {
 		$this->token_store->delete( $this->configuration->token_cache_key() );
 	}
 }
+
+// phpcs:enable

@@ -72,11 +72,6 @@ final class Plugin {
 			array( self::class, 'review_payment_attempt' )
 		);
 
-		load_plugin_textdomain(
-			'daraja-mpesa-for-woocommerce',
-			false,
-			dirname( plugin_basename( DARAJA_MPESA_FILE ) ) . '/languages'
-		);
 		add_filter( 'woocommerce_payment_gateways', array( GatewayRegistrar::class, 'register' ) );
 		add_action(
 			'woocommerce_blocks_payment_method_type_registration',

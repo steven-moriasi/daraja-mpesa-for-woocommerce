@@ -15,6 +15,8 @@ use DarajaMpesa\Infrastructure\Http\HttpTransportException;
 use DarajaMpesa\Support\Clock;
 use JsonException;
 
+// phpcs:disable WordPress.Security.EscapeOutput.ExceptionNotEscaped -- Provider exception values are internal and never rendered directly.
+
 /**
  * Initiates STK Push requests and queries their provider status.
  */
@@ -312,3 +314,5 @@ final class DarajaClient implements DarajaGateway {
 		return substr( null === $clean ? '' : $clean, 0, 500 );
 	}
 }
+
+// phpcs:enable
