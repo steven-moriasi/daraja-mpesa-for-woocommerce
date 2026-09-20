@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Daraja M-Pesa Gateway for WooCommerce
- * Plugin URI:        https://github.com/steven-ongati/daraja-mpesa-for-woocommerce
+ * Plugin URI:        https://github.com/steven-moriasi/daraja-mpesa-for-woocommerce
  * Description:       Direct Safaricom Daraja STK Push payments with durable reconciliation for WooCommerce.
  * Version:           0.1.0
  * Requires at least: 6.8
@@ -10,7 +10,7 @@
  * WC requires at least: 10.3
  * WC tested up to:   11.1
  * Author:            Steven Ongati Moriasi
- * Author URI:        https://github.com/steven-ongati
+ * Author URI:        https://github.com/steven-moriasi
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       daraja-mpesa-for-woocommerce

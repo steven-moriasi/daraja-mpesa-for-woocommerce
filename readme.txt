@@ -1,5 +1,5 @@
 === Daraja M-Pesa Gateway for WooCommerce ===
-Contributors: steven-ongati
+Contributors: steven-moriasi
 Tags: woocommerce, mpesa, daraja, payments, kenya
 Requires at least: 6.8
 Tested up to: 7.1
