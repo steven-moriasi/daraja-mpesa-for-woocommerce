@@ -59,5 +59,8 @@ if ! grep -Fq "${expected_version}" "${validation}/${slug}/daraja-mpesa-for-wooc
 	exit 1
 fi
 
-sha256sum --check "${archive}.sha256"
+(
+	cd "$(dirname "${archive}")"
+	sha256sum --check "$(basename "${archive}").sha256"
+)
 printf 'Validated %s\n' "${archive}"

@@ -35,5 +35,8 @@ find "${stage}" -type f -name '*.php' -exec php -l {} \; >/dev/null
 	zip -X -q -r "${archive}" "${slug}"
 )
 
-sha256sum "${archive}" > "${archive}.sha256"
+(
+	cd "${build}"
+	sha256sum "$(basename "${archive}")" > "$(basename "${archive}").sha256"
+)
 printf 'Built %s\n' "${archive}"
