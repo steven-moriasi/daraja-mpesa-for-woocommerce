@@ -4,7 +4,7 @@
   "private": true,
   "description": "Checkout Blocks and customer payment status assets.",
   "license": "GPL-2.0-or-later",
-  "author": "Steven Ongati Moriasi",
+  "author": "Steven Moriasi",
   "scripts": {
     "lint:js": "eslint .",
     "audit": "npm audit --audit-level=high"

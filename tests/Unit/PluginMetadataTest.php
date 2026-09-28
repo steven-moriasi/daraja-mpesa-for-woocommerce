@@ -40,7 +40,7 @@ final class PluginMetadataTest extends TestCase {
 			'Plugin Name:       Daraja M-Pesa Gateway for WooCommerce',
 			$contents
 		);
-		self::assertStringContainsString( 'Author:            Steven Ongati Moriasi', $contents );
+		self::assertStringContainsString( 'Author:            Steven Moriasi', $contents );
 		self::assertStringContainsString( 'License:           GPL-2.0-or-later', $contents );
 		self::assertStringContainsString(
 			'Text Domain:       daraja-mpesa-for-woocommerce',

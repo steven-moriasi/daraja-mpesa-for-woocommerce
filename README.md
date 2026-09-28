@@ -129,4 +129,4 @@ GPL-2.0-or-later. See `LICENSE`.
 
 ## Independence and trademarks
 
-This is an independent open-source project by Steven Ongati Moriasi. It is not affiliated with, endorsed by, or sponsored by Safaricom PLC, Automattic Inc., or WooCommerce. M-Pesa, Safaricom, WordPress, and WooCommerce are trademarks of their respective owners and are used only to describe compatibility.
+This is an independent open-source project by Steven Moriasi. It is not affiliated with, endorsed by, or sponsored by Safaricom PLC, Automattic Inc., or WooCommerce. M-Pesa, Safaricom, WordPress, and WooCommerce are trademarks of their respective owners and are used only to describe compatibility.

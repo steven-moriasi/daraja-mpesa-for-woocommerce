@@ -9,7 +9,7 @@
  * Requires PHP:      8.1
  * WC requires at least: 10.3
  * WC tested up to:   11.1
- * Author:            Steven Ongati Moriasi
+ * Author:            Steven Moriasi
  * Author URI:        https://github.com/steven-moriasi
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
